@@ -4,12 +4,16 @@ body
 	
 	display: flex;
 	justify-content: center;
-	
-	
-	
-	
+}
 
-	
+h1
+{
+	margin-left: 30px;
+}
+h1+p
+{
+	margin-left: 30px;
+	margin-top: -20px;
 }
 
 #conteneur
@@ -82,20 +86,8 @@ em
 	margin-left: 156px;
 }
 
-h1 + p
-{
-	margin-left:  50px;
-	margin-top: -20px;
-	padding-bottom: 50px;
-	font-size: 1.1em;
 
-}
 
-h1
-{
-	margin-left: 50px;
-	margin-top: 50px;
-}
 
 .contacte 
 {
@@ -227,53 +219,48 @@ h4
 {
 	body
 	{
-		background-color: yellow;
+		background-color: white;
 		display: flex;
 		flex-direction: column;
-		max-width: 500px;
+		max-width: 1024px;
 
 	}
-	h1 + p
-	{
-	  position: absolute;
-	  margin-top: -1020px;
-	  margin-left: 50px; 
-		
-    }
+	
+    
 
-    h1
-    {
-    	position: absolute;
-    	margin-top: -1200px;
-    	margin-left: 15px;
-    }
-     #point1
+
+     .point1
      {
      	display: none;
      }
-     #point
+     .point
      {
      	display: none;
      }
-     #rond
+     .rond
      {
      	display: none;
      }
 	
-
-	li
+li
 	{
+		
+
+
+
+        
 		display: flex;
 		flex-direction: column;
 		text-align: center;
 		
 
 	}
+	
 	p
 	{
-		position: relative;
-		margin-left: 0px;
 		
+		width: 100%;
+		margin: 0px;
 	}
 	em
 	{
@@ -285,17 +272,75 @@ h4
 	}
 	h3
 	{
-	    border-bottom: 2px solid rgb(245,31,36);
-	    width: 430px;	
+		
+        text-align: center;
+		background-color: grey;
+		width: 100%;
+		margin-left: 0px;
+		
+		
+		
+
+		
+		border-bottom: none;
+	   
 	}
 	#loisirs
 	{
-		position: absolute;
-		margin-top: 1980px;
-		width: 500px;
+		
+		
 		background-color: white;
 	}
 	 strong
 	 {
-	 	margin-left: -5px
+	 	margin-left: 5px;
 	 }
+	 a
+	 {
+
+	 	text-align: center;
+	 }
+	 h1
+	 {
+	 	position: absolute;
+	 	text-align: center;
+	 	
+	 	margin-top: -1040px;
+	 	background-color: ;
+
+	 	
+	 	width: 98%;
+	 	margin-left: 0px;
+	 	font-size: 1.8em;
+
+	 }
+	 h1+p
+	 {
+	 	background-color: ;
+	 	position: absolute;
+	 	margin-top: -1015px;
+	 	text-align: center;
+	 	margin-left: 0px;
+	 	width: 100%.
+	 }
+	 #conteneur
+	 {
+	 	background-color: white;
+	 }
+	 h2
+	 {
+	 	margin-top: 30px
+	 }
+	 h4
+	 {
+	 	background-color: grey;
+	 	margin-left: 0px;
+	 }
+	 
+
+	 
+
+}
+
+
+	
